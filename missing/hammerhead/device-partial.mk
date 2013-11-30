@@ -49,8 +49,6 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin:lge \
     vendor/missing/hammerhead/proprietary/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin:lge \
     vendor/missing/hammerhead/proprietary/face.face.y0-y0-22-b-N.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.bin:lge \
-    vendor/missing/hammerhead/proprietary/BrowserProviderProxy.apk:system/app/BrowserProviderProxy.apk:lge \
-    vendor/missing/hammerhead/proprietary/BrowserProviderProxy.odex:system/app/BrowserProviderProxy.odex:lge \
     vendor/missing/hammerhead/proprietary/OmaDmclient.apk:system/app/OmaDmclient.apk:lge \
     vendor/missing/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk:lge \
     vendor/missing/hammerhead/proprietary/qcrilmsgtunnel.odex:system/app/qcrilmsgtunnel.odex:lge \
@@ -65,5 +63,5 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/ConfigUpdater.apk:system/priv-app/ConfigUpdater.apk:lge \
     vendor/missing/hammerhead/proprietary/ConfigUpdater.odex:system/priv-app/ConfigUpdater.odex:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
-    vendor/missing/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so:lge
+    vendor/missing/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so:lge \
 
