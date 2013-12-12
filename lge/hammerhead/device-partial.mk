@@ -14,7 +14,9 @@
 
 # LGE blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
+    vendor/lge/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk:lge \
     vendor/lge/hammerhead/proprietary/SprintHiddenMenu.apk:system/app/SprintHiddenMenu.apk:lge \
+    vendor/lge/hammerhead/proprietary/UpdateSetting.apk:system/app/UpdateSetting.apk:lge \
     vendor/lge/hammerhead/proprietary/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/General_cal.acdb:system/etc/General_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/Global_cal.acdb:system/etc/Global_cal.acdb:lge \
@@ -26,6 +28,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/sensor_def_hh.conf:system/etc/sensor_def_hh.conf:lge \
     vendor/lge/hammerhead/proprietary/Speaker_cal.acdb:system/etc/Speaker_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/serviceitems.jar:system/framework/serviceitems.jar:lge \
+    vendor/lge/hammerhead/proprietary/vss_init:system/vendor/bin/vss_init:lge \
     vendor/lge/hammerhead/proprietary/bu24205_LGIT_VER_2_DATA1.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA1.bin:lge \
     vendor/lge/hammerhead/proprietary/bu24205_LGIT_VER_2_DATA2.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA2.bin:lge \
     vendor/lge/hammerhead/proprietary/bu24205_LGIT_VER_2_DATA3.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA3.bin:lge \
@@ -39,4 +42,10 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03:lge \
     vendor/lge/hammerhead/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge \
     vendor/lge/hammerhead/proprietary/libAKM8963.so:system/vendor/lib/libAKM8963.so:lge \
+    vendor/lge/hammerhead/proprietary/libvss_common_core.so:system/vendor/lib/libvss_common_core.so:lge \
+    vendor/lge/hammerhead/proprietary/libvss_common_idl.so:system/vendor/lib/libvss_common_idl.so:lge \
+    vendor/lge/hammerhead/proprietary/libvss_common_iface.so:system/vendor/lib/libvss_common_iface.so:lge \
+    vendor/lge/hammerhead/proprietary/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so:lge \
+    vendor/lge/hammerhead/proprietary/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so:lge \
+    vendor/lge/hammerhead/proprietary/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so:lge \
 

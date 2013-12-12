@@ -14,7 +14,6 @@
 
 # Missing blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
-    vendor/missing/hammerhead/proprietary/vss_init:system/vendor/bin/vss_init:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:lge \
@@ -30,12 +29,6 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/libfrsdk.so:system/vendor/lib/libfrsdk.so:lge \
     vendor/missing/hammerhead/proprietary/libvdmengine.so:system/vendor/lib/libvdmengine.so:lge \
     vendor/missing/hammerhead/proprietary/libvdmfumo.so:system/vendor/lib/libvdmfumo.so:lge \
-    vendor/missing/hammerhead/proprietary/libvss_common_core.so:system/vendor/lib/libvss_common_core.so:lge \
-    vendor/missing/hammerhead/proprietary/libvss_common_idl.so:system/vendor/lib/libvss_common_idl.so:lge \
-    vendor/missing/hammerhead/proprietary/libvss_common_iface.so:system/vendor/lib/libvss_common_iface.so:lge \
-    vendor/missing/hammerhead/proprietary/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so:lge \
-    vendor/missing/hammerhead/proprietary/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so:lge \
-    vendor/missing/hammerhead/proprietary/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so:lge \
     vendor/missing/hammerhead/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so:lge \
     vendor/missing/hammerhead/proprietary/libwvm.so:system/vendor/lib/libwvm.so:lge \
     vendor/missing/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:lge \
@@ -50,16 +43,10 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin:lge \
     vendor/missing/hammerhead/proprietary/face.face.y0-y0-22-b-N.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.bin:lge \
     vendor/missing/hammerhead/proprietary/OmaDmclient.apk:system/app/OmaDmclient.apk:lge \
-    vendor/missing/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk:lge \
-    vendor/missing/hammerhead/proprietary/qcrilmsgtunnel.odex:system/app/qcrilmsgtunnel.odex:lge \
     vendor/missing/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener.apk:lge \
     vendor/missing/hammerhead/proprietary/shutdownlistener.odex:system/app/shutdownlistener.odex:lge \
     vendor/missing/hammerhead/proprietary/TimeService.apk:system/app/TimeService.apk:lge \
     vendor/missing/hammerhead/proprietary/TimeService.odex:system/app/TimeService.odex:lge \
-    vendor/missing/hammerhead/proprietary/UpdateSetting.apk:system/app/UpdateSetting.apk:lge \
-    vendor/missing/hammerhead/proprietary/UpdateSetting.odex:system/app/UpdateSetting.odex:lge \
-    vendor/missing/hammerhead/proprietary/qcrilhook.jar:system/framework/qcrilhook.jar:qcom \
-    vendor/missing/hammerhead/proprietary/qcrilhook.odex:system/framework/qcrilhook.odex:qcom \
     vendor/missing/hammerhead/proprietary/ConfigUpdater.apk:system/priv-app/ConfigUpdater.apk:lge \
     vendor/missing/hammerhead/proprietary/ConfigUpdater.odex:system/priv-app/ConfigUpdater.odex:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
