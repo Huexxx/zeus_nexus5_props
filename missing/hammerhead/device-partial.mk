@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so:lge \
     vendor/missing/hammerhead/proprietary/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd:lge \
     vendor/missing/hammerhead/proprietary/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd:lge \
-    vendor/missing/hammerhead/proprietary/OmaDmclient.apk:system/app/OmaDmclient.apk:lge \
     vendor/missing/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener.apk:lge \
     vendor/missing/hammerhead/proprietary/shutdownlistener.odex:system/app/shutdownlistener.odex:lge \
     vendor/missing/hammerhead/proprietary/TimeService.apk:system/app/TimeService.apk:lge \
