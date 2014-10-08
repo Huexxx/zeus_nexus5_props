@@ -13,6 +13,8 @@
 # limitations under the License.
 
 # Qualcomm blob(s) necessary for Hammerhead hardware
+PRODUCT_PACKAGES += \
+    qcrilhook
 PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/bridgemgrd:system/bin/bridgemgrd:qcom \
     vendor/qcom/hammerhead/proprietary/diag_klog:system/bin/diag_klog:qcom \
@@ -38,7 +40,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw:qcom \
     vendor/qcom/hammerhead/proprietary/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw:qcom \
     vendor/qcom/hammerhead/proprietary/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
-    vendor/qcom/hammerhead/proprietary/qcrilhook.jar:system/framework/qcrilhook.jar:qcom \
     vendor/qcom/hammerhead/proprietary/flp.msm8974.so:system/lib/hw/flp.msm8974.so:qcom \
     vendor/qcom/hammerhead/proprietary/gps.msm8974.so:system/lib/hw/gps.msm8974.so:qcom \
     vendor/qcom/hammerhead/proprietary/libadsprpc.so:system/lib/libadsprpc.so:qcom \

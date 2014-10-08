@@ -13,9 +13,11 @@
 # limitations under the License.
 
 # LGE blob(s) necessary for Hammerhead hardware
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    UpdateSetting \
+    serviceitems
 PRODUCT_COPY_FILES := \
-    vendor/lge/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk:lge \
-    vendor/lge/hammerhead/proprietary/UpdateSetting.apk:system/app/UpdateSetting.apk:lge \
     vendor/lge/hammerhead/proprietary/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/General_cal.acdb:system/etc/General_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/Global_cal.acdb:system/etc/Global_cal.acdb:lge \
@@ -26,7 +28,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/qcril.db:system/etc/qcril.db:lge \
     vendor/lge/hammerhead/proprietary/sensor_def_hh.conf:system/etc/sensor_def_hh.conf:lge \
     vendor/lge/hammerhead/proprietary/Speaker_cal.acdb:system/etc/Speaker_cal.acdb:lge \
-    vendor/lge/hammerhead/proprietary/serviceitems.jar:system/framework/serviceitems.jar:lge \
     vendor/lge/hammerhead/proprietary/vss_init:system/vendor/bin/vss_init:lge \
     vendor/lge/hammerhead/proprietary/bu24205_LGIT_VER_2_DATA1.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA1.bin:lge \
     vendor/lge/hammerhead/proprietary/bu24205_LGIT_VER_2_DATA2.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA2.bin:lge \

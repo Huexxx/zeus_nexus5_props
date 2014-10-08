@@ -13,6 +13,10 @@
 # limitations under the License.
 
 # Missing blob(s) necessary for Hammerhead hardware
+PRODUCT_PACKAGES += \
+    shutdownlistener \
+    TimeService \
+    ConfigUpdater
 PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:lge \
@@ -35,9 +39,6 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so:lge \
     vendor/missing/hammerhead/proprietary/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd:lge \
     vendor/missing/hammerhead/proprietary/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd:lge \
-    vendor/missing/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener.apk:lge \
-    vendor/missing/hammerhead/proprietary/TimeService.apk:system/app/TimeService.apk:lge \
-    vendor/missing/hammerhead/proprietary/ConfigUpdater.apk:system/priv-app/ConfigUpdater.apk:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
     vendor/missing/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so:lge \
 
