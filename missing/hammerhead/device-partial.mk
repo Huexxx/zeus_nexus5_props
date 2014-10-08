@@ -36,11 +36,8 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd:lge \
     vendor/missing/hammerhead/proprietary/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd:lge \
     vendor/missing/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener.apk:lge \
-    vendor/missing/hammerhead/proprietary/shutdownlistener.odex:system/app/shutdownlistener.odex:lge \
     vendor/missing/hammerhead/proprietary/TimeService.apk:system/app/TimeService.apk:lge \
-    vendor/missing/hammerhead/proprietary/TimeService.odex:system/app/TimeService.odex:lge \
     vendor/missing/hammerhead/proprietary/ConfigUpdater.apk:system/priv-app/ConfigUpdater.apk:lge \
-    vendor/missing/hammerhead/proprietary/ConfigUpdater.odex:system/priv-app/ConfigUpdater.odex:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
     vendor/missing/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so:lge \
 
