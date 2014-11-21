@@ -13,6 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+    qcrilhook \
     qcrilmsgtunnel
 
 LOCAL_STEM := hammerhead/device-partial.mk

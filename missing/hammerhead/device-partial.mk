@@ -13,14 +13,15 @@
 # limitations under the License.
 
 # Missing blob(s) necessary for Hammerhead hardware
+PRODUCT_PACKAGES += \
+    serviceitems \
+    shutdownlistener \
+    TimeService \
+    UpdateSetting
 PRODUCT_COPY_FILES := \
-    vendor/missing/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk:lge \
-    vendor/missing/hammerhead/proprietary/TimeService.apk:system/app/TimeService/TimeService.apk:lge \
-    vendor/missing/hammerhead/proprietary/UpdateSetting.apk:system/app/UpdateSetting/UpdateSetting.apk:lge \
     vendor/missing/hammerhead/proprietary/serviceitems.xml:system/etc/permissions/serviceitems.xml:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
     vendor/missing/hammerhead/proprietary/flp.conf:system/etc/flp.conf:lge \
-    vendor/missing/hammerhead/proprietary/serviceitems.jar:system/framework/serviceitems.jar:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:lge \
