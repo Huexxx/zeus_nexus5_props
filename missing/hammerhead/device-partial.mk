@@ -13,6 +13,9 @@
 # limitations under the License.
 
 # Missing blob(s) necessary for Hammerhead hardware
+# shutdownlistener, TimeService and UpdateSetting are directly copied because they are currently odexed!
+PRODUCT_PACKAGES += \
+    serviceitems
 PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk:lge \
     vendor/missing/hammerhead/proprietary/shutdownlistener.odex:system/app/shutdownlistener/arm/shutdownlistener.odex:lge \
@@ -23,7 +26,6 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/serviceitems.xml:system/etc/permissions/serviceitems.xml:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
     vendor/missing/hammerhead/proprietary/flp.conf:system/etc/flp.conf:lge \
-    vendor/missing/hammerhead/proprietary/serviceitems.jar:system/framework/serviceitems.jar:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:lge \

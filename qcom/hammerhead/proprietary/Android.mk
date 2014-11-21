@@ -12,6 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE := qcrilhook
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := javalib.jar
+LOCAL_MODULE_OWNER := qcom
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_SRC_FILES := $(LOCAL_MODULE).jar
+include $(BUILD_PREBUILT)
+
 ifeq ($(TARGET_DEVICE),hammerhead)
 
 # Create symbolic link because user space can access persist directory,
