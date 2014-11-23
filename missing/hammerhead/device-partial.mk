@@ -15,11 +15,8 @@
 # Missing blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk:lge \
-    vendor/missing/hammerhead/proprietary/shutdownlistener.odex:system/app/shutdownlistener/arm/shutdownlistener.odex:lge \
     vendor/missing/hammerhead/proprietary/TimeService.apk:system/app/TimeService/TimeService.apk:lge \
-    vendor/missing/hammerhead/proprietary/TimeService.odex:system/app/TimeService/arm/TimeService.odex:lge \
     vendor/missing/hammerhead/proprietary/UpdateSetting.apk:system/app/UpdateSetting/UpdateSetting.apk:lge \
-    vendor/missing/hammerhead/proprietary/UpdateSetting.odex:system/app/UpdateSetting/arm/UpdateSetting.odex:lge \
     vendor/missing/hammerhead/proprietary/serviceitems.xml:system/etc/permissions/serviceitems.xml:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
     vendor/missing/hammerhead/proprietary/flp.conf:system/etc/flp.conf:lge \
