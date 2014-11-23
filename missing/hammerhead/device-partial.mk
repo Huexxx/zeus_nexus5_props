@@ -26,6 +26,21 @@ PRODUCT_COPY_FILES := \
     vendor/missing/hammerhead/proprietary/serviceitems.xml:system/etc/permissions/serviceitems.xml:lge \
     vendor/missing/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
     vendor/missing/hammerhead/proprietary/flp.conf:system/etc/flp.conf:lge \
+    vendor/missing/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so:lge \
+    vendor/missing/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so:lge \
+    vendor/missing/hammerhead/proprietary/libssd.so:system/lib/libssd.so:lge \
+    vendor/missing/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so:lge \
+    vendor/missing/hammerhead/proprietary/libDxHdcp.so:system/vendor/lib/libDxHdcp.so:lge \
+    vendor/missing/hammerhead/proprietary/libfrsdk.so:system/vendor/lib/libfrsdk.so:lge \
+    vendor/missing/hammerhead/proprietary/liblbs_core.so:system/vendor/lib/liblbs_core.so:lge \
+    vendor/missing/hammerhead/proprietary/libthermalclient.so:system/vendor/lib/libthermalclient.so:lge \
+    vendor/missing/hammerhead/proprietary/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:lge \
+    vendor/missing/hammerhead/proprietary/libvdmengine.so:system/vendor/lib/libvdmengine.so:lge \
+    vendor/missing/hammerhead/proprietary/libvdmfumo.so:system/vendor/lib/libvdmfumo.so:lge \
+    vendor/missing/hammerhead/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so:lge \
+    vendor/missing/hammerhead/proprietary/libwvm.so:system/vendor/lib/libwvm.so:lge \
+    vendor/missing/hammerhead/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so:lge \
+    vendor/missing/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:lge \
     vendor/missing/hammerhead/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:lge \
